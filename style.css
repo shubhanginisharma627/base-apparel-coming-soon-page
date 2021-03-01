@@ -13,7 +13,7 @@ body{
     text-align:left;
     padding-top: 30%;
     padding-right: 10%;
-   
+    margin-right: 40px;
    }
 .main{
     line-height: 2rem;
@@ -39,7 +39,7 @@ header{
   h1{
       font-weight: 600;
       font-size: 6rem;
-      letter-spacing: 10px;
+      letter-spacing: 12px;
       line-height: 6rem;
   }
   span{
