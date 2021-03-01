@@ -2,7 +2,7 @@ body{
     font-size: 16px;
     font-family: 'Josefin Sans', sans-serif;
    background: linear-gradient(135deg,hsl(0, 0%, 100%),hsl(0, 100%, 98%));
-   background-image: url("images/bg-pattern-desktop.svg");
+   background-image: url("bg-pattern-desktop.svg");
    background-blend-mode:multiply ;
 }
 .container{
@@ -93,7 +93,7 @@ header{
           order:0;
       }
       .image{
-        content:url("images/hero-mobile.jpg");
+        content:url("hero-mobile.jpg");
         order:2;
       }
       .sub{
