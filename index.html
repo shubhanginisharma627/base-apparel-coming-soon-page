@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Base Apparel coming soon page</title>
+  <link href="style.css" rel="stylesheet">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <span class="logo">
+    <img src="images/logo.svg" alt="logo">
+  </span>
+  <div class="first"> 
+   <div class="sub">
+ <h1> <span>We're </span><br>Coming<br>
+   Soon</h1>
+
+ <p class="main"> Hello fellow shoppers! We're currently building our new fashion store. 
+  Add your email below to stay up-to-date with announcements and our launch deals.
+</p>
+
+<form  id="form">
+  <input type="text" class="form-control" id="email" name="email" placeholder=" Email Address">
+  <button  onclick=" return email_validate()"type="submit" value="submit" ><img src="images/icon-arrow.svg" alt="arrow" class="arrow"></button>
+  <img src="images/icon-error.svg"alt="error" class="error">
+  <p class="alert">Please provide a valid email</p>
+</form>
+</div>
+  </div>
+  <div class="second">
+    <img src="images/hero-desktop.jpg" class="image" alt="photo">
+  </div>
+  </div>
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Shubhangini Sharma</a>.
+    </p>
+  </footer>
+  <script src="index.js" type="text/javascript"></script>
+</body>
+</html>
